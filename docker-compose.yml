@@ -1,16 +1,18 @@
-onos_project:
-  image: onosproject/onos
-  container_name: onos-project
-  expose:
-    - 6653
-    - 6640
-    - 8181
-    - 8101
-    - 9876
-  restart: always
-  ports:
-    - "6653:6653"
-    - "6640:6640"
-    - "8181:8181"
-    - "8101:8101"
-    - "9876:9876"
+version: '3'
+services:
+  onos:
+    image: onosproject/onos
+    container_name: onos-project
+    expose:
+      - 6653
+      - 6640
+      - 8181
+      - 8101
+      - 9876
+    restart: always
+    ports:
+      - "6653:6653"
+      - "6640:6640"
+      - "8181:8181"
+      - "8101:8101"
+      - "9876:9876"
