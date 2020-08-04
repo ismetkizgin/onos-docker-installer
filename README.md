@@ -12,7 +12,7 @@ Terminate a project live on Docker
 
 Controller user information
 ```
-  host: http://localhost:8181
+  host: http://localhost:8181/onos/ui
   user(id): onos
   password: rocks
 ```
